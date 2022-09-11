@@ -1,0 +1,24 @@
+.calculator {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border: thick solid black;
+}
+
+.screen {
+    border: thin solid black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+#zero {
+    border-radius: 35%;
+    flex: 2;
+}
