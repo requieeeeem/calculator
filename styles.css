@@ -16,11 +16,13 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 150px;
+    min-height: 150px;
     margin-bottom: 20px;
     color: #d4d4d2;
-    font-size: 70px;
+    font-size: 4vw;
     max-width: 9ch;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 button {
